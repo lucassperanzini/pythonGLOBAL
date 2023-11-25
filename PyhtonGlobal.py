@@ -11,7 +11,13 @@ import CadastroLogin
 
 caminhoRegistro = 'registroUsuario.json'
 
-
+def validar_numero(mensagem):
+    while True:
+        entrada = input(mensagem)
+        if re.match(r"^\d+$", entrada):
+            return int(entrada)
+        else:
+            print("Por favor, digite apenas números.")
 def DadosPessoais():
     try:
         with open("usuarioLogado.txt",'r') as f:
@@ -25,11 +31,21 @@ def DadosPessoais():
                     if "infoPessoais" in usuario[usuarioLogou]:
                         print("Informações pessoais já registradas.")
                         return
+        1
         
-        
-        idade = int(input("\n\nQuantos anos você tem? "))
-        altura = int(input("Qual é sua altura em cm? "))
-        peso = int(input("Qual é seu peso? "))
+        try:
+            
+            idade = validar_numero("\n\nQuantos anos você tem? ")
+            if not (0 <= idade <= 120):
+                print("Idade inválida. A idade deve estar entre 0 e 120 anos.")
+            else:
+                altura = validar_numero("Qual é sua altura em cm? ")
+                peso = validar_numero("Qual é seu peso? ")
+
+            
+
+        except ValueError:
+            print("O valor inserido não é válido.")
 
         condicao_medica = print("""
     Por favor, selecione sua condição médica (com exemplos):
@@ -52,9 +68,9 @@ def DadosPessoais():
         elif opcao == 4:
             condicao_medica = "Doenças Renais"
         elif opcao == 5:
-            condicao_medica = "Doenças do whatsapp"
+            condicao_medica = "Doenças do coração"
         elif opcao == 6:
-            condicao_medica = "Doenças do Coracao"
+            condicao_medica = ""
         else:
             print("Opção inválida. Por favor, selecione um número entre 1 e 6.")
         
@@ -286,6 +302,8 @@ ___________.__
         elif escolha == "3":
             print("Saindo do sistema. Até mais!")
             exit()
+        else:
+            print("Opção inválida")
             
 
 aplicacao()

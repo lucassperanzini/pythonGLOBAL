@@ -3,7 +3,10 @@ import re
 import os
 caminhoRegistro = 'registroUsuario.json'
 
+def validar_nome(nome):
+    padrao = r"^\w{3,}$"
 
+    return bool(re.match(padrao, nome))
 def register():
     try:
    
@@ -18,38 +21,53 @@ def register():
         print(f"criando...")
         user_info_array = []
   
+    nome_valido = False
+    while not nome_valido:
+        usuario = input('Qual é o seu nome de usuário?')
 
-    usuario = input('Qual é o seu nome de usuário?')
+        if validar_nome(usuario):
+            print("O nome é válido.")
+            nome_valido = True
+        else:
+            print("O nome não é válido. Certifique-se de que tenha no mínimo 3 letras, sem espaços ou números.")
 
         
 
-
-    senha = input('Qual é a sua senha?')
-    email = input('Qual é o seu email?')
+    senha_valida = False
+    while not senha_valida:
+        senha = input('Qual é a sua senha?')
+        if len(senha) >= 8:
+            senha_valida = True
+        else:
+            print("Senha deve possuir mais de 8 caracteres")
+            
     padrao = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+    email_valido = False
+    while not email_valido:
+        email = input('Qual é o seu email?')
+        if re.search(padrao,email):
+            email_valido = True
+            user_info = {}
 
-    if re.search(padrao,email):
+            user_info[f'{usuario}'] = {
+                    'nome':usuario,
+                    'senha':senha,
+                    'email':email
+                }
 
-        user_info = {}
-
-        user_info[f'{usuario}'] = {
-                'nome':usuario,
-                'senha':senha,
-                'email':email
-            }
-
-
-        user_info_array.append(user_info)
-                        
-
-
-        with open(caminhoRegistro,'w') as f:
-            json.dump(user_info_array,f)
+            
+            
+            user_info_array.append(user_info)
                             
-            print('Registrado com sucesso!')
-                        
-    else:
-        print('Email inválido')
+
+
+            with open(caminhoRegistro,'w') as f:
+                json.dump(user_info_array,f)
+                                
+                print('Registrado com sucesso!')
+                            
+        else:
+            print('Email inválido')
 
     
 
