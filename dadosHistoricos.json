@@ -1,0 +1,372 @@
+{
+    "contextResponses": [
+        {
+            "contextElement": {
+                "attributes": [
+                    {
+                        "name": "distancia",
+                        "values": [
+                            {
+                                "_id": "6560b023b6fd1c00074f7e61",
+                                "recvTime": "2023-11-24T14:16:03.732Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560b02db6fd1c00074f7e64",
+                                "recvTime": "2023-11-24T14:16:13.720Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 153
+                            },
+                            {
+                                "_id": "6560b037b6fd1c00074f7e67",
+                                "recvTime": "2023-11-24T14:16:23.725Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 183
+                            },
+                            {
+                                "_id": "6560b041b6fd1c00074f7e6a",
+                                "recvTime": "2023-11-24T14:16:33.727Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 183
+                            },
+                            {
+                                "_id": "6560b04bb6fd1c00074f7e6d",
+                                "recvTime": "2023-11-24T14:16:43.731Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 214
+                            },
+                            {
+                                "_id": "6560b055b6fd1c00074f7e70",
+                                "recvTime": "2023-11-24T14:16:53.733Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 214
+                            },
+                            {
+                                "_id": "6560b05fb6fd1c00074f7e72",
+                                "recvTime": "2023-11-24T14:17:03.740Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 214
+                            },
+                            {
+                                "_id": "6560b069b6fd1c00074f7e75",
+                                "recvTime": "2023-11-24T14:17:13.743Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 214
+                            },
+                            {
+                                "_id": "6560b073b6fd1c00074f7e79",
+                                "recvTime": "2023-11-24T14:17:23.755Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 183
+                            },
+                            {
+                                "_id": "6560b07db6fd1c00074f7e7a",
+                                "recvTime": "2023-11-24T14:17:33.796Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 153
+                            },
+                            {
+                                "_id": "6560b087b6fd1c00074f7e7d",
+                                "recvTime": "2023-11-24T14:17:43.806Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 153
+                            },
+                            {
+                                "_id": "6560b091b6fd1c00074f7e7e",
+                                "recvTime": "2023-11-24T14:17:53.827Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560b09bb6fd1c00074f7e81",
+                                "recvTime": "2023-11-24T14:18:03.884Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560b0a5b6fd1c00074f7e84",
+                                "recvTime": "2023-11-24T14:18:13.883Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560b0afb6fd1c00074f7e87",
+                                "recvTime": "2023-11-24T14:18:23.897Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560b0b9b6fd1c00074f7e8a",
+                                "recvTime": "2023-11-24T14:18:33.904Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560b0c3b6fd1c00074f7e8d",
+                                "recvTime": "2023-11-24T14:18:43.918Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560b0dab6fd1c00074f7e8f",
+                                "recvTime": "2023-11-24T14:19:06.059Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 0
+                            },
+                            {
+                                "_id": "6560b0e4b6fd1c00074f7e92",
+                                "recvTime": "2023-11-24T14:19:16.062Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 0
+                            },
+                            {
+                                "_id": "6560b132b6fd1c00074f7e95",
+                                "recvTime": "2023-11-24T14:20:34.751Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 10
+                            },
+                            {
+                                "_id": "6560b1bdb6fd1c00074f7e98",
+                                "recvTime": "2023-11-24T14:22:53.557Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 10
+                            },
+                            {
+                                "_id": "6560b1cbb6fd1c00074f7e9b",
+                                "recvTime": "2023-11-24T14:23:07.350Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 10
+                            },
+                            {
+                                "_id": "6560b3e6b6fd1c00074f7e9e",
+                                "recvTime": "2023-11-24T14:32:06.320Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 70
+                            },
+                            {
+                                "_id": "6560b40ab6fd1c00074f7ea1",
+                                "recvTime": "2023-11-24T14:32:42.289Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 70
+                            },
+                            {
+                                "_id": "6560b41eb6fd1c00074f7ea4",
+                                "recvTime": "2023-11-24T14:33:02.865Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 70
+                            },
+                            {
+                                "_id": "6560b4d3b6fd1c00074f7ea5",
+                                "recvTime": "2023-11-24T14:36:03.950Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 100
+                            },
+                            {
+                                "_id": "6560b513b6fd1c00074f7ea8",
+                                "recvTime": "2023-11-24T14:37:07.313Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 100
+                            },
+                            {
+                                "_id": "6560b620b6fd1c00074f7f8b",
+                                "recvTime": "2023-11-24T14:41:36.057Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 124
+                            },
+                            {
+                                "_id": "6560b628b6fd1c00074f7f8e",
+                                "recvTime": "2023-11-24T14:41:44.139Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 124
+                            },
+                            {
+                                "_id": "6560b6f2b6fd1c00074f7f90",
+                                "recvTime": "2023-11-24T14:45:06.322Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 136
+                            },
+                            {
+                                "_id": "6560b6fab6fd1c00074f7f93",
+                                "recvTime": "2023-11-24T14:45:14.048Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 136
+                            },
+                            {
+                                "_id": "6560b890b6fd1c00074f7f96",
+                                "recvTime": "2023-11-24T14:52:00.112Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 152
+                            },
+                            {
+                                "_id": "6560b8a1b6fd1c00074f7f99",
+                                "recvTime": "2023-11-24T14:52:17.169Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 152
+                            },
+                            {
+                                "_id": "6560b9afb6fd1c00074f7f9c",
+                                "recvTime": "2023-11-24T14:56:47.228Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 160
+                            },
+                            {
+                                "_id": "6560b9b1b6fd1c00074f7f9f",
+                                "recvTime": "2023-11-24T14:56:49.044Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 160
+                            },
+                            {
+                                "_id": "6560b9c0b6fd1c00074f7fa2",
+                                "recvTime": "2023-11-24T14:57:04.738Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 180
+                            },
+                            {
+                                "_id": "6560baa5b6fd1c00074f7fa7",
+                                "recvTime": "2023-11-24T15:00:53.042Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 185
+                            },
+                            {
+                                "_id": "6560baaeb6fd1c00074f7fa8",
+                                "recvTime": "2023-11-24T15:01:02.710Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 185
+                            },
+                            {
+                                "_id": "6560baafb6fd1c00074f7fab",
+                                "recvTime": "2023-11-24T15:01:03.935Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 185
+                            },
+                            {
+                                "_id": "6560bad7b6fd1c00074f7fae",
+                                "recvTime": "2023-11-24T15:01:43.296Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 210
+                            },
+                            {
+                                "_id": "6560bc40b6fd1c00074f7fb1",
+                                "recvTime": "2023-11-24T15:07:44.721Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 0
+                            },
+                            {
+                                "_id": "6560bc85b6fd1c00074f7fb4",
+                                "recvTime": "2023-11-24T15:08:53.771Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 32
+                            },
+                            {
+                                "_id": "6560bc96b6fd1c00074f7fb7",
+                                "recvTime": "2023-11-24T15:09:10.952Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 132
+                            },
+                            {
+                                "_id": "6560bebab6fd1c00074f7fba",
+                                "recvTime": "2023-11-24T15:18:18.767Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 0
+                            },
+                            {
+                                "_id": "6560bec4b6fd1c00074f7fbd",
+                                "recvTime": "2023-11-24T15:18:28.888Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 0
+                            },
+                            {
+                                "_id": "6560beceb6fd1c00074f7fc0",
+                                "recvTime": "2023-11-24T15:18:38.890Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 122
+                            },
+                            {
+                                "_id": "6560bedfb6fd1c00074f7fc3",
+                                "recvTime": "2023-11-24T15:18:55.717Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 183
+                            },
+                            {
+                                "_id": "6560beeab6fd1c00074f7fc7",
+                                "recvTime": "2023-11-24T15:19:06.272Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 214
+                            },
+                            {
+                                "_id": "6560bef4b6fd1c00074f7fc9",
+                                "recvTime": "2023-11-24T15:19:16.284Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 214
+                            },
+                            {
+                                "_id": "6560bff9b6fd1c00074f7fcc",
+                                "recvTime": "2023-11-24T15:23:37.126Z",
+                                "attrName": "distancia",
+                                "attrType": "float",
+                                "attrValue": 0
+                            }
+                        ]
+                    }
+                ],
+                "id": "urn:ngsi-ld:Flooence",
+                "isPattern": false,
+                "type": "iot"
+            },
+            "statusCode": {
+                "code": "200",
+                "reasonPhrase": "OK"
+            }
+        }
+    ]
+}
