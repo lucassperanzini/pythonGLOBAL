@@ -137,7 +137,7 @@ def DadosSensor():
 
 def PorcentagemAguaIngerida():
     #o sensor muitas vezes registra mais de uma vez o mesmo valor, então so vai aparecer valores diferentes
-    SetMLingeridos = set()
+    ListaValoresSensor = []
 
     with open("usuarioLogado.txt",'r') as f:
         usuarioLogou = f.read().strip().replace('"', '')
@@ -166,8 +166,8 @@ def PorcentagemAguaIngerida():
                 for value in attribute['values']:
                     if value['attrValue'] == 0:
                         continue
-                    SetMLingeridos.add(value['attrValue'])
-                    quantidadeIngerida = sum(SetMLingeridos)
+                    ListaValoresSensor.append(value['attrValue'])
+                    quantidadeIngerida = sum(ListaValoresSensor)
     
     
 
@@ -228,12 +228,6 @@ def historicoDados():
 
 
 
-    
-
-        
-
-    
-
 
 
 
@@ -282,7 +276,7 @@ ___________.__
                     print("3: Logout")
                     print("4: Sair")
                     
-                    task_choice = int(input("Escolha uma opção: "))
+                    task_choice = int(input("Escolha uma opção:"))
                 
                     if task_choice == 1:
                         historicoDados()
@@ -297,8 +291,6 @@ ___________.__
                         exit()
                     else:
                         print('Não existe essa opção')
-
-
         elif escolha == "3":
             print("Saindo do sistema. Até mais!")
             exit()
